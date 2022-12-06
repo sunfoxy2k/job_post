@@ -1,0 +1,70 @@
+.container {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.container.comment {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+
+.container.comment>.editor_input_wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 0.25em;
+  flex: 1;
+
+  border: 1px solid #49505e;
+  border-radius: 1em;
+
+  padding: 0.25em 0.5em;
+}
+
+.container img {
+  margin: auto;
+  display: block;
+}
+
+
+.editor_input {
+  position: relative;
+  min-height: 3em;
+  outline: 0;
+}
+
+.comment .editor_input {
+  min-height: initial;
+}
+
+
+
+.editor_input p {
+  margin-block-start: 0.25em;
+  margin-block-end: 0.25em;
+}
+
+.placeholder {
+  color: #49505e;
+
+  overflow: hidden;
+  position: absolute;
+  text-overflow: ellipsis;
+  user-select: none;
+  display: none;
+  pointer-events: none;
+}
+
+@media only screen and (min-width: 31em) and (max-width: 60em) {
+  .container {
+    margin-top: 0.4em;
+    color: black;
+    height: 58%;
+    /* max-height: 20em; */
+    overflow-y: auto;
+  }
+}

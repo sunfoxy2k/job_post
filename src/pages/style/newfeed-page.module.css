@@ -1,0 +1,47 @@
+.container {
+    --layout-gap: var(--spacing-large);
+    --side-content-width: var(--min-content-width);
+    --main-content-gap: var(--spacing-medium);
+}
+
+.container {
+    position: relative;
+    max-width: var(--max-width);
+    margin: auto;
+
+    padding: var(--spacing-small) var(--spacing-extra-small);
+
+    display: flex;
+    justify-content: space-between;
+    gap: var(--layout-gap);
+}
+
+.side_content {
+    position: sticky;
+    top: var(--spacing-large);
+
+
+    text-align: center;
+    min-width: var(--side-content-width);
+}
+
+.side_content>div:first-child {
+    margin-bottom: var(--spacing-medium);
+}
+
+.main_content {
+    max-width: var(--max-content-width);
+}
+
+.main_content>div {
+    margin-bottom: var(--main-content-gap);
+}
+
+
+@media screen and (max-width: 35em) {
+    .side_content {
+        display: none;
+    }
+
+    
+}

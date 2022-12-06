@@ -1,0 +1,21 @@
+.container {
+  --padding-inline : var(--spacing-minor-medium);
+}
+
+.container .card {
+  padding: var(--spacing-medium) var(--padding-inline);
+}
+
+.card >* {
+  margin-bottom: var(--spacing-medium);
+}
+
+.tag {
+  border-bottom: none;
+}
+
+.container .line {
+  margin-inline : calc(-1 * var(--padding-inline));
+  padding-bottom: none !important;
+
+}

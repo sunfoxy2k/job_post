@@ -1,0 +1,42 @@
+:root {
+    --gray: hsla(0, 0%, 0%, 0.5);
+    --jonquil: hsla(48, 99%, 48%, 1);
+    --black: hsla(0, 0%, 0%, 1);
+    --blue-munsell: hsla(188, 100%, 32%, 1);
+    --curious-blue: hsl(205,85%, 49%);
+    --yellow-orange: hsla(36, 99%, 62%, 1);
+    --red: hsla(0, 100%, 50%, 1);
+    --pacific-blue: hsla(186, 99%, 36%, 1);
+    --taupe-gray: rgb(135, 146, 146);
+}
+
+:root {
+    --outline-color: ;
+    --backdrop-color: var(--gray);
+
+    --background-color: #CADCF1;
+    
+    --on-background-color: ;
+
+    --surface-color: white;
+    --surface-color-variant: ;
+
+    --on-surface: black;
+    --on-surface-variant: var(--taupe-gray);
+    --on-surface-accent: ;
+
+    /* --primary-color: var(--yellow-orange); */
+    --primary-color: var(--curious-blue);
+    --primary-color-variant: ;
+
+
+    --secondary-color: #93CCD1;
+
+
+    --input-color: ;
+    --input-container-color: ;
+
+    --err-color: ;
+    --on-err-color: ;
+
+}

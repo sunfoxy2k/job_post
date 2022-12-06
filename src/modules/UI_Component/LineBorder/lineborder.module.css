@@ -1,0 +1,4 @@
+.container {
+    height: 2px;
+    background-color: var(--taupe-gray);
+}

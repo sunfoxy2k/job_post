@@ -1,0 +1,16 @@
+.upload_button[type="file"] {
+  display: none;
+}
+
+.icon {
+  color: #06889c;
+  width: 2em;
+  height: 2em;
+  cursor: pointer;
+}
+
+.icon_comment {
+  color: black;
+  width: 1.5em;
+  height: 1.5em;
+}

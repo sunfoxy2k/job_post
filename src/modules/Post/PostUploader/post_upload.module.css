@@ -1,0 +1,45 @@
+.container {
+  --container-padding: var(--spacing-small);
+  --input-padding: var(--spacing-extra-small);
+}
+
+.container {
+  border-radius: var(--object-large);
+  padding: var(--container-padding);
+  overflow: hidden;
+}
+
+.input,
+.input .emphasize {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-extra-small);
+}
+
+.avatar {
+  --avatar-size: var(--object-minor-medium);
+
+  width: var(--avatar-size);
+  height: auto;
+}
+
+.input .emphasize {
+  background-color: var(--primary-color);
+  padding-right: var(--spacing-small);
+  border-radius: var(--object-large);
+}
+
+.icon {
+  margin-left: auto;
+  /* margin-right: var(--spacing-small); */
+}
+
+.editor {
+  display: none;
+}
+
+@media only screen and (min-width: 32em) {
+  .editor {
+    display: block;
+  }
+}

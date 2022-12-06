@@ -1,0 +1,15 @@
+.container {
+    width: fit-content;
+    height: var(--object-minor-medium);
+    padding-inline : var(--spacing-medium);
+    line-height: var(--object-minor-medium);
+  
+    background-color: var(--surface-color);
+  
+    margin-left: var(--spacing-medium);
+    padding-bottom: 0;
+  
+    border-radius: 0.5em 0.5em 0 0;
+    /* border: solid 1px; */
+    border-bottom: none;
+  }

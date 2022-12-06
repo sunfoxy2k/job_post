@@ -1,0 +1,12 @@
+.container {
+    gap: var(--spacing-minor-medium);
+
+    border-top : solid 1px var(--);
+}
+
+.container button{
+    border-radius: var(--object-extra-large);
+    padding: var(--spacing-extra-small) var(--spacing-minor-medium);
+
+    background-color: var(--taupe-gray);
+}

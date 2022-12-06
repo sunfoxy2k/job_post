@@ -1,0 +1,38 @@
+:root {
+    --root-font-size: 16px;
+}
+
+:root {
+    /* --ff-text: "Courier Prime";
+    --ff-heading-big: "Libre Baskerville"; */
+
+    --fs-xl: clamp(1.5rem, calc(1rem + 3vw), 2.5rem);
+    --fs-big-text: clamp(1rem, 2vw, 1.25rem);
+    --fs-md: 1.25rem;
+
+    --display-color-variant : var(--taupe-gray);
+    --display-color : ;
+    --display-font: ;
+    --display-large: 1.25em;
+    --display-medium: ;
+    --display-small: ;
+
+    --headline-font: ;
+    --headline-large: ;
+    --headeline-medium: ;
+    --headline-small: ;
+
+    --title-font: ;
+    --title-large: ;
+
+    --label-font: ;
+    --label-large: ;
+
+
+    --body-font: ;
+    --body-large: ;
+    --body-medium: ;
+    --body-small: ;
+
+    --scaling-font-size: ;
+}

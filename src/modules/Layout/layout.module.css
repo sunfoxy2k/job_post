@@ -1,0 +1,39 @@
+.container {
+    --layout-offset : var(--spacing-small)
+}
+
+@media only screen and (min-width: 32rem) {
+    .container {
+        --layout-offset : var(--spacing-medium);
+    }
+}
+
+.container {
+    background-color: var(--background-color);
+}
+
+.header,
+.footer__menu,
+.footer__note {
+    display: none;
+}
+
+.main {
+    min-height: 100vh;
+}
+
+/* mobile : 32em */
+@media only screen and (max-width: 32em) {
+    .header {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 32em) {
+    .header,
+    .footer__note {
+        display: block;
+    }
+}
+
+

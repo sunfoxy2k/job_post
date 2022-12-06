@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+}
+
+.button {
+  color: #06889c;
+  font-size: 1.2em;
+  width: 1.5em;
+  cursor: pointer;
+}

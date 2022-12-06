@@ -1,0 +1,33 @@
+.post_button {
+  width: 100%;
+  margin-top: 0.8em;
+  padding: 0.6em;
+  border: none;
+  border-radius: 0.6em;
+  font-size: 1.2em;
+  font-weight: 500;
+  background-color: #06889c;
+  color: #fff;
+  cursor: pointer;
+}
+
+.post_button:hover {
+  background-color: hsla(188, 93%, 32%, 0.85);
+}
+
+
+.post_button_small {
+  transform: translateX(0.5em);
+
+  background-color: #06889c;
+  border: none;
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+}
+
+.post_button_small > svg{
+  transform: translateX(0.1em);
+  color: white;
+
+}

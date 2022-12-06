@@ -1,0 +1,39 @@
+:root {
+    --max-width: 80em;
+    --max-content-width: 32em;
+
+    --offset-horizontal: max(calc(50vw - var(--max-content-width) /2), 0.5em);
+    --min-content-width: 12em;
+}
+
+:root {
+    --none: 0;
+
+    --spacing-extra-small: 0.25em;
+    --spacing-small: 0.5em;
+    --spacing-minor-medium: 0.75em;
+    --spacing-medium: 1em;
+    --spacing-large: 2em;
+
+    --spacing-extra-large : 4em;
+
+    --object-extra-small : 0.5em;
+    --object-small: 1em;
+    --object-minor-medium: 2em;
+    --object-medium: 3em;
+
+    --object-large: 5em; 
+    --object-extra-large: 10em;
+
+    --border-radius-medium: 0.8em;
+}
+
+
+@media only screen and (min-width: 32rem) {
+    
+}
+/* devices */
+
+:root {
+    --mobile : 30em;
+}
